@@ -1,0 +1,17 @@
+.select-box {
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+.select-box:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+.select-box option:checked {
+    border: 2px solid #007bff;
+    background-color: #e7f3ff;
+  }
+  
